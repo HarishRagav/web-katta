@@ -34,3 +34,14 @@ document.getElementById("demo").innerHTML="Hello World!";
 var text=document.createElement("p");
 text.textContent="Hello from Guvian!";
 document.body.appendChild(text);
+
+// Getting Value Of Select Tag
+//Display the value of selected option in paragraph tag with id 'selectedOption' using Javascript. Note: Values are changed dynamically for evaluation
+function getSelectedOption(){
+var tag = document.getElementsByTagName("select");
+var grab = tag[0].value;
+var para=document.getElementById("selectedOption");
+para.innerText=grab;
+    
+}
+getSelectedOption();
