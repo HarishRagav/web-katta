@@ -45,3 +45,12 @@ para.innerText=grab;
     
 }
 getSelectedOption();
+
+// Getting Value Of Radio Button
+//Display the value of selected radio button in paragraph tag with id 'selectedOption' using Javascript. Note: Values are changed dynamically for evaluation
+function displaySelectedOption(){
+    const selectedOption = document.querySelector('input[name="option"]:checked');
+  const selectedOptionText = selectedOption ? selectedOption.value : '';
+  document.getElementById('selectedOption').textContent = selectedOptionText;
+}
+displaySelectedOption();
