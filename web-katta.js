@@ -29,3 +29,8 @@ document.getElementById("hello").style.display="none";
 
 //Display "Hello World!" by using a p tag which is already present with id 'demo' in JavaScript
 document.getElementById("demo").innerHTML="Hello World!";
+
+//Display "Hello from Guvian!" in a paragraph tag, using Javascript
+var text=document.createElement("p");
+text.textContent="Hello from Guvian!";
+document.body.appendChild(text);
