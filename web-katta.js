@@ -23,3 +23,6 @@ function calculateSum(){
 
 //Change the content of the paragraph tag with id name as hello from "Hello by HTML" to "Hello by JavaScript"
 document.getElementById("hello").innerHTML ="Hello by JavaScript";
+
+//Hide the elements with id name as hello from "Hello by HTML" using JavaScript with display property
+document.getElementById("hello").style.display="none";
