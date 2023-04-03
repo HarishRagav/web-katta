@@ -20,3 +20,6 @@ function calculateSum(){
     var result = document.getElementById("result");
     result.textContent=calc;
 }
+
+//Change the content of the paragraph tag with id name as hello from "Hello by HTML" to "Hello by JavaScript"
+document.getElementById("hello").innerHTML ="Hello by JavaScript";
