@@ -98,3 +98,9 @@ document.getElementById("demo").innerText="eligible";
 }else{
   document.getElementById("demo").innerText="Not eligible";  
 }
+    
+// Ceil Of A Number
+// Given a number 4.4, Find the nearest greater number and display it in paragraph with id 'demo'
+const array =4.4;
+const calc = Math.round(array+1);
+document.getElementById('demo').innerText=calc;
