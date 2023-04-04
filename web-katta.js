@@ -123,3 +123,10 @@ function compare(){
 // Color It
 // Change the colour of the element with id name as "changeMeToBlue" to blue colour by using Java Script.
     document.getElementById("changeMeToBlue").style.color="blue";
+// increase size
+//Increase the font size of all the elements with class name as "increase" to 30px using JavaScript.
+var classi = document.querySelectorAll(".increase");
+
+classi.forEach(function(classi){
+    classi.style.fontSize="30px";
+})
