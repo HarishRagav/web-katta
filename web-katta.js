@@ -89,3 +89,12 @@ function checkString(){
 // Join all the given array elements to form a comma seperated string ["Red","Green","White","Black"].Display the resultant in the paragraph with id "demo"
 var array =["Red","Green","White","Black"];
 document.getElementById("demo").innerText=array;
+    
+// Condition
+// Raju is 13 years old. Display in the given paragraph with id 'demo' as 'Eligible to vote' if he is eligible otherwise 'Not eligible'
+var array=13;
+if (array>18){
+document.getElementById("demo").innerText="eligible";
+}else{
+  document.getElementById("demo").innerText="Not eligible";  
+}
