@@ -104,3 +104,18 @@ document.getElementById("demo").innerText="eligible";
 const array =4.4;
 const calc = Math.round(array+1);
 document.getElementById('demo').innerText=calc;
+
+// Boolean
+// Given two numbers in input 1 and input 2 of id 'in1' and 'in2' input fields .if input1 < input2, 
+//     display 'true' otherwise 'false' in the given paragraph with id 'result'.
+function compare(){
+    //Start Your code here
+    var input1=Number(document.getElementById("in1").value);
+    var input2=Number(document.getElementById("in2").value);
+    if (input1<input2){
+       document.getElementById("result").innerText=Boolean(1);
+    }else{
+        document.getElementById("result").innerText=Boolean(0);
+    }
+    
+}
