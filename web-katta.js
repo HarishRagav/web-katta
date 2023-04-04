@@ -72,3 +72,16 @@ function multiply(){
     document.getElementById("result").textContent=multiply;
     
 }
+// String Comparison
+// Check whether the given input string with id 'in1' includes 'Java'. if so, display true otherwise false in the paragraph tag with id 'result'.
+function checkString(){
+    //Start Your code here
+    var input1=document.getElementById("in1").value;
+    var para = document.getElementById("result");
+    if (input1.includes("Java") || input1.includes("java") || input1.includes("JAVA")){
+        para.innerText="true";
+    }else{
+        para.innerText="false";
+    }
+    
+}
