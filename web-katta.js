@@ -141,3 +141,6 @@ classic.forEach(function(classic){
 // text-align
 // Align the contents to center with id_name as "alignToCenter" using JavaScript
 document.getElementById("alignToCenter").style.textAlign="center";
+    
+// Align the contents to right with id_name as "alignToRight" using JavaScript
+document.getElementById("alignToRight").style.textAlign="right";
