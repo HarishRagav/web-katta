@@ -84,4 +84,8 @@ function checkString(){
         para.innerText="false";
     }
     
-}
+// }
+// join
+// Join all the given array elements to form a comma seperated string ["Red","Green","White","Black"].Display the resultant in the paragraph with id "demo"
+var array =["Red","Green","White","Black"];
+document.getElementById("demo").innerText=array;
