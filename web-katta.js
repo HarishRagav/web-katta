@@ -62,3 +62,13 @@ function displaySelectedOption(){
     para.textContent=into;
 }
 displaySelectedOption();
+
+// Calculator - Multiplication
+// Multiply given two inputs with id 'in1' and 'in2' and display the values in paragraph tag with id 'result' using Javascript.
+function multiply(){
+    var input1=document.getElementById("in1").value;
+    var input2=document.getElementById("in2").value;
+    var multiply= input1 * input2;
+    document.getElementById("result").textContent=multiply;
+    
+}
