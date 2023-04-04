@@ -137,3 +137,7 @@ var classic=document.querySelectorAll(".changeMeToBlue");
 classic.forEach(function(classic){
     classic.style.backgroundColor="blue";
 })
+
+// text-align
+// Align the contents to center with id_name as "alignToCenter" using JavaScript
+document.getElementById("alignToCenter").style.textAlign="center";
