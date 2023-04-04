@@ -119,3 +119,7 @@ function compare(){
     }
     
 }
+
+// Color It
+// Change the colour of the element with id name as "changeMeToBlue" to blue colour by using Java Script.
+    document.getElementById("changeMeToBlue").style.color="blue";
