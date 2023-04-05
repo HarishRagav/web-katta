@@ -170,3 +170,9 @@ var b =20;
 var c =a + b;
 document.body.innerHTML='<p id="result"></p>';
 document.getElementById("result").innerText="C = "+c;
+
+// Create Two Variables
+// Assign "Hello" to a string variable, 1 to a variable, print both in same line using Java Script
+var string ="Hello ";
+var string2=1;
+document.getElementById("demo").innerText= string + string2;
