@@ -176,3 +176,12 @@ document.getElementById("result").innerText="C = "+c;
 var string ="Hello ";
 var string2=1;
 document.getElementById("demo").innerText= string + string2;
+
+// Javascript For Loop
+// Print the numbers from 1 to 5 using Javascript using for loop(give space between each number))
+var para = document.getElementById("demo");
+var space =" ";
+for (let i = 1; i <= 5; i++) {
+ space += i +" ";
+}
+para.innerText=space;
