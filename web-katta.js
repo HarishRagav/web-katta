@@ -148,3 +148,7 @@ document.getElementById("alignToRight").style.textAlign="right";
 // backgroundColor
 // Change the background colour of the given rectangle to blue color using JavaScript
 var color = document.querySelector(".blue-rectangle").style.backgroundColor="blue";
+
+// display
+// In the display, "Hello by HTML" is hidden using JavaScript. Show the hidden elements using JavaScript.
+document.getElementById("hello").style.display="";
