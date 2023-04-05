@@ -156,3 +156,9 @@ document.getElementById("hello").style.display="";
 // Insert Content
 // Insert "I am JavaScript" to the paragraph tag with id name as insert
 document.getElementById("insert").innerHTML="I am JavaScript";
+
+// Addition
+// Display addition of 5 and 6 with a paragraph element with id name as "addition" using JavaScript
+document.body.innerHTML='<p id="addition"></p>';
+var calc = 5+6;
+document.getElementById("addition").innerText=calc;
