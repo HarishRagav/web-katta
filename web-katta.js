@@ -162,3 +162,11 @@ document.getElementById("insert").innerHTML="I am JavaScript";
 document.body.innerHTML='<p id="addition"></p>';
 var calc = 5+6;
 document.getElementById("addition").innerText=calc;
+
+// Arithmetic Operation
+// Declare three variables a, b, and c and assign a with 10 and b with 20 and give addition of a and b to c. Display the result in paragraph tag as "C = 30".
+var a =10;
+var b =20;
+var c =a + b;
+document.body.innerHTML='<p id="result"></p>';
+document.getElementById("result").innerText="C = "+c;
