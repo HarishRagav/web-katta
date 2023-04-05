@@ -144,3 +144,7 @@ document.getElementById("alignToCenter").style.textAlign="center";
     
 // Align the contents to right with id_name as "alignToRight" using JavaScript
 document.getElementById("alignToRight").style.textAlign="right";
+
+// backgroundColor
+// Change the background colour of the given rectangle to blue color using JavaScript
+var color = document.querySelector(".blue-rectangle").style.backgroundColor="blue";
