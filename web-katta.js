@@ -152,3 +152,7 @@ var color = document.querySelector(".blue-rectangle").style.backgroundColor="blu
 // display
 // In the display, "Hello by HTML" is hidden using JavaScript. Show the hidden elements using JavaScript.
 document.getElementById("hello").style.display="";
+
+// Insert Content
+// Insert "I am JavaScript" to the paragraph tag with id name as insert
+document.getElementById("insert").innerHTML="I am JavaScript";
