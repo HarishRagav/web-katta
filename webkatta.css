@@ -1,1 +1,17 @@
-
+/* 1. Flex-Direction
+Display flex-items in a column using the flex-direction property */
+     <style>
+            .flex-container {
+                background-color: dodgerblue;
+                display : flex;
+                flex-direction:column;
+             
+            }
+            .flex-container >div {
+                margin: 10px;
+                padding: 20px;
+                font-size: 30px;
+                background-color: #f1f1f1;
+ 
+            }
+        </style>
