@@ -185,3 +185,32 @@ for (let i = 1; i <= 5; i++) {
  space += i +" ";
 }
 para.innerText=space;
+
+Given a array, sort the array in Ascending order and print, using Javascript array=[40, 100, 1, 5, 25, 10]; Example(array=[5,4,3,2,1] sorted array 1,2,3,4,5 in p tag)
+    
+    function quickSort(array){
+    if(array.length<=1){
+        return array
+    }
+    var pivot=array[0];
+    var right =[];
+    var left=[];
+    
+    for(let i=1;i<array.length;i++){
+        if(array[i]<pivot){
+            left.push(array[i]);
+        }else{
+            right.push(array[i]);
+        }
+    }
+    
+    return quickSort(left).concat(pivot,quickSort(right));
+}
+
+var unsorted=[40, 100, 1, 5, 25, 10];
+var sorted = quickSort(unsorted);
+var string ="array =["+ unsorted +']';
+var ansString = " sorted array = [" + sorted +']';
+var answer = string + ansString ;
+document.getElementById("demo").innerHTML = sorted;
+
