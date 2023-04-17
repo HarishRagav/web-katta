@@ -230,3 +230,10 @@ document.getElementById("demo").innerHTML = sorted;
 document.getElementById("demo").innerText=unsorted;
     
 
+Given an array, Print the elements which are greater than 5 in acending order from that numbers using javascript. if input is 45, 4, 9, 16, 25 Use ',' to separate numbers and Print use the fun() function to process !
+    function fun() {
+var input=document.getElementById('in1').value;
+var split=input.split(',').map(Number);
+var filter=split.filter(function(num){return num>=5}).sort(function(a,b){return a-b});
+document.getElementById('result').textContent=filter;
+      }
