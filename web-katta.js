@@ -225,4 +225,8 @@ var ansString = " sorted array = [" + sorted +']';
 var answer = string + ansString ;
 document.getElementById("demo").innerHTML = sorted;
     
+//     another Solution using inbbuild function
+    var unsorted = [40, 100, 1, 5, 25, 10].sort(function(a,b){return a-b});
+document.getElementById("demo").innerText=unsorted;
+    
 
