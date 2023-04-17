@@ -186,6 +186,17 @@ for (let i = 1; i <= 5; i++) {
 }
 para.innerText=space;
 
+    
+Display Date of the timestamp from the input field use only IST result should be in p tag (example: timestamp of 1382086394000 must have a output --> Tue Jul 29 45766 12:43:20 GMT+0530 (India Standard Time)
+    function showDate(){
+//Start Your code here
+var code = Number(document.getElementById("in1").value);
+var datecalc = new Date(code*1000).toString();
+document.getElementById("result").innerText=datecalc;
+}
+
+    
+    
 Given a array, sort the array in Ascending order and print, using Javascript array=[40, 100, 1, 5, 25, 10]; Example(array=[5,4,3,2,1] sorted array 1,2,3,4,5 in p tag)
     
     function quickSort(array){
@@ -213,4 +224,5 @@ var string ="array =["+ unsorted +']';
 var ansString = " sorted array = [" + sorted +']';
 var answer = string + ansString ;
 document.getElementById("demo").innerHTML = sorted;
+    
 
