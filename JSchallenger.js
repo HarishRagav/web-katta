@@ -80,3 +80,9 @@ const numOne = 3;
 const numTwo = 2;
 const numThree = 2;
 console.log(numOne >= numTwo, numTwo >= numThree);
+
+// lesser than or wequal to challenge 
+const numOne = 1;
+const numTwo = 1;
+const numThree = 2;
+console.log(numOne <= numTwo, numTwo <= numThree);
