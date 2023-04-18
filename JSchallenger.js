@@ -39,3 +39,8 @@ let num = 1;
 num = 2;
 console.log(num);
 console.log('The value of num is: ' + num);
+
+// Here, we declare the variable isTrue. But, it has no value yet. Assign a boolean value to it and run the code.
+let isTrue;
+isTrue = true;
+console.log(isTrue);
