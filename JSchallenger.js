@@ -63,3 +63,8 @@ console.log(numOne == numTwo);
 const numOne = 5;
 const numTwo = 6;
 console.log(numOne != numTwo);
+
+// greater than challenge 
+const numOne = 6;
+const numTwo = 5;
+console.log(numOne > numTwo);
