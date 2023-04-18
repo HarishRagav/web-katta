@@ -74,3 +74,9 @@ console.log(numOne > numTwo);
 const numOne = 1;
 const numTwo = 2;
 console.log(numOne < numTwo);
+
+// greater than or equal to challenge
+const numOne = 3;
+const numTwo = 2;
+const numThree = 2;
+console.log(numOne >= numTwo, numTwo >= numThree);
