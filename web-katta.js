@@ -237,3 +237,10 @@ var split=input.split(',').map(Number);
 var filter=split.filter(function(num){return num>=5}).sort(function(a,b){return a-b});
 document.getElementById('result').textContent=filter;
       }
+
+//  Sorting function in javascript
+    var unsorted=[10,5,7,8,9,4,6,1]
+    var sorted=unsorted.sort(function(a,b){return a-b});
+ 
+ 
+ 
