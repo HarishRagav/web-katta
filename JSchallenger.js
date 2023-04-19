@@ -2,6 +2,10 @@
 function myFunction(a, b) {
    return a + b;
 }
+// Write a function that takes two values, say a and b, as arguments. Return true if the two values are equal and of the same type
+function myFunction(a, b) {
+  return a === b;
+}
 
 // Assign a new value to the variable num. The code will not work the way it is. Find the mistake and fix it. Execute the corrected code.
 let num = 1;
