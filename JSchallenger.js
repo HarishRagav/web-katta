@@ -16,6 +16,10 @@ function myFunction(a) {
 function myfunction(a,n){
    return a.charAt(n-1)
 }
+// another solution
+function myFunction(a, n) {
+   return a[n - 1];
+}
 
 // Assign a new value to the variable num. The code will not work the way it is. Find the mistake and fix it. Execute the corrected code.
 let num = 1;
