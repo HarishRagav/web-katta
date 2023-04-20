@@ -29,6 +29,10 @@ function myFunction(a){
 function myFunction(str) {
    return str.slice(-3);
 }
+// Write a function that takes a string as argument. The string contains the substring 'is'. Return the index of 'is'.
+function myFunction(a) {
+   return a.indexOf('is');
+}
 // Assign a new value to the variable num. The code will not work the way it is. Find the mistake and fix it. Execute the corrected code.
 let num = 1;
 num = 2;
