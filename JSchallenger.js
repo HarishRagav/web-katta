@@ -25,6 +25,10 @@ function myFunction(a, n) {
 function myFunction(a){
    return a.slice(3)
 }
+// Write a function that takes a string as argument. Extract the last 3 characters from the string. Return the result
+function myFunction(str) {
+   return str.slice(-3);
+}
 // Assign a new value to the variable num. The code will not work the way it is. Find the mistake and fix it. Execute the corrected code.
 let num = 1;
 num = 2;
