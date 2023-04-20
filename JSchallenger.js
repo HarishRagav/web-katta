@@ -37,6 +37,10 @@ function myFunction(a) {
 function myFunction(a) {
    return a.indexOf('is');
 }
+// Write a function that takes a string (a) as argument. Extract the first half a. Return the result
+function myFunction(a) {
+   return a.slice(0, a.length / 2);
+}
 // Assign a new value to the variable num. The code will not work the way it is. Find the mistake and fix it. Execute the corrected code.
 let num = 1;
 num = 2;
