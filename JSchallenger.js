@@ -1,3 +1,8 @@
+// return the percentage of the number
+function myFunction(a, b) {
+  return b / 100 * a
+}
+
 // sum of two numbers
 function myFunction(a, b) {
    return a + b;
