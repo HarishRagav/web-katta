@@ -33,6 +33,11 @@ function myFunction(str) {
 function myFunction(a) {
    return a.slice(0, 3);
 }
+// remove last n elements in an array
+// write a javascript function to remove last three elements in a string
+function myFunction(a) {
+   return a.slice(0, -3);
+}
 // Write a function that takes a string as argument. The string contains the substring 'is'. Return the index of 'is'.
 function myFunction(a) {
    return a.indexOf('is');
