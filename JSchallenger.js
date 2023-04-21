@@ -3,6 +3,10 @@
 function myFunction(a, b, c, d, e, f) {
    return (((a + b - c) * d) / e) ** f;
 }
+// Write a function that takes a number as argument. If the number is even, return true. Otherwise, return false
+function myFunction(a) {
+  return a % 2 === 0
+}
 // return the percentage of the number
 function myFunction(a, b) {
   return b / 100 * a
