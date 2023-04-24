@@ -1,3 +1,8 @@
+// check wether the number is a whole number
+function myFunction(a) {
+  return a - Math.floor(a) === 0
+}
+
 // Write a function that takes a string as argument. The string contains the substring 'is'. Return the index of 'is'.
 function myFunction(a){
    return a.indexOf('is');
